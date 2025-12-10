@@ -22,7 +22,7 @@ export interface SiteConfig {
   about: string;
   keywords: string[];
   ogImage: string;
-  twitterHandle: string;
+  // twitterHandle: string;
   author: string;
   author_img:string;
 
@@ -31,10 +31,10 @@ export interface SiteConfig {
     allowSystem: boolean;
   };
   links: {
-    website: string;
-    github: string;
+    // website: string;
+    // github: string;
     linkedin: string;
-    tips: string;
+    // tips: string;
     email: string;
   };
   social: SocialLink[];
@@ -56,78 +56,68 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  siteName: 'Muhammad Fiaz',
+  siteName: 'Glory Augustine',
   domain: 'muhammadfiaz.com',
-  author: 'Muhammad Fiaz',
-  description: 'Full Stack developer creating useful & delightful web experiences. Exploring ML & AI.',
+  author: 'Glory Augustine',
+  description: 'Graphic Designer and UI/UX Designer dedicated to creating clean, modern, and meaningful visuals that make brands stand out.',
   about:
-    'I am a Full Stack developer who loves creating new things. I spend my spare time building free apps & tools, and I am currently diving into Machine Learning & AI to expand my problem‑solving toolkit. Always open to collaboration & new challenges.',
-    author_img: 'https://avatars.githubusercontent.com/u/75434191?v=4',
+    'I am Gloria Oyale Augustine, a passionate Graphic Designer and UI/UX Designer dedicated to creating clean, modern, and meaningful visuals that make brands stand out and help people connect with digital products effortlessly.',
+    author_img: '/img/file.png',
     keywords: [
-    'Muhammad Fiaz',
-    'Full Stack Developer',
-    'Portfolio',
-    'Next.js',
-    'TypeScript',
-    'TailwindCSS',
-    'shadcn/ui',
-    'Framer Motion',
-    'Machine Learning',
-    'AI'
+      'Glory Augustine',
+      'Product Designer',
+      'UI',
+      'UX',
+      'Graphics Designer',
   ],
   ogImage: '/og.png',
-  twitterHandle: '@muhammadfiaz_',
+  // twitterHandle: '@muhammadfiaz_',
 
   theme: {
     default: 'dark',
     allowSystem: true,
   },
   links: {
-    website: 'https://muhammadfiaz.com',
-    github: 'https://github.com/muhammad-fiaz',
+    // website: 'https://muhammadfiaz.com',
+    // github: 'https://github.com/muhammad-fiaz',
     linkedin: 'https://www.linkedin.com/feed/',
-    tips: 'https://pay.muhammadfiaz.com',
-    email: 'mailto:contact@muhammadfiaz.com',
+    // tips: 'https://pay.muhammadfiaz.com',
+    email: 'mailto:oyalegloria@gmail.com',
   },
   social: [
-    { label: 'GitHub', url: 'https://github.com/muhammad-fiaz', icon: 'github' },
+    // { label: 'GitHub', url: 'https://github.com/muhammad-fiaz', icon: 'github' },
     { label: 'LinkedIn', url: 'https://www.linkedin.com/feed/', icon: 'linkedin' },
-    { label: 'Website', url: 'https://muhammadfiaz.com', icon: 'globe' },
-    { label: 'Tip', url: 'https://pay.muhammadfiaz.com', icon: 'coffee' },
+    // { label: 'Website', url: 'https://muhammadfiaz.com', icon: 'globe' },
+    // { label: 'Tip', url: 'https://pay.muhammadfiaz.com', icon: 'coffee' },
   ],
   navigation: [
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about' },
     { label: 'Projects', href: '/projects' },
-    { label: 'Posts', href: '/posts' },
+    // { label: 'Posts', href: '/posts' },
     { label: 'Chat', href: '/chat' },
-    { label: 'Contact', href: '/contact' }
+    // { label: 'Contact', href: '/contact' }
   ],
 
   
   seo: {
-    title: 'Muhammad Fiaz',
-    description: 'Full Stack developer creating useful & delightful web experiences. Exploring ML & AI.',
+    title: 'Glory Augustine',
+    description: 'Graphic Designer and UI/UX Designer dedicated to creating clean, modern, and meaningful visuals that make brands stand out.',
     keywords: [
-      'Muhammad Fiaz',
-      'Full Stack Developer',
-      'Portfolio',
-      'Next.js',
-      'TypeScript',
-      'TailwindCSS',
-      'shadcn/ui',
-      'Framer Motion',
-      'Machine Learning',
-      'AI'
+      'Glory Augustine',
+      'Product Designer',
+      'UI',
+      'UX',
+      'Graphics Designer',
     ],
     canonical: 'https://muhammadfiaz.com',
     image: '/og.png',
-    imageAlt: "Muhammad Fiaz - Full Stack Developer",
+    imageAlt: "Glory Augustine - Product Designer",
     locale: 'en-US',
     type: 'website',
     twitterCard: 'summary_large_image',
     robots: 'index,follow',
-    themeColor: '#0f172a',
+    themeColor: '#3c075fff',
   },
 
 };

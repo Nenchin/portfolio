@@ -24,7 +24,7 @@ export default function RefundPolicy() {
           <div className="text-base lg:text-lg space-y-4">
           <p className="text-sm text-muted-foreground mb-4">Last updated: August 20, 2025.</p>
 
-          <p className="mb-4">This Refund Policy applies to purchases and services made through muhammadfiaz.com and fiaz.dev (Fiaz Technologies) and to any related offerings or services provided by Muhammad Fiaz personally or by Fiaz Technologies. References to &quot;we&quot;, &quot;us&quot;, or &quot;our&quot; include both Muhammad Fiaz and Fiaz Technologies where applicable.</p>
+          <p className="mb-4">This Refund Policy applies to purchases and services made through Glowvisuals.com (Glowvisuals) and to any related offerings or services provided by Glory Augustine personally or by Glowvisuals. References to &quot;we&quot;, &quot;us&quot;, or &quot;our&quot; include both Glory Augustine and Glowvisuals where applicable.</p>
 
           <p className="mb-2 text-sm font-medium">Minimal collection statement</p>
           <p className="mb-2 text-sm">We do not collect personal details about you unless it is necessary to provide a service you requested, required by law, or you voluntarily provide them.</p>
@@ -45,7 +45,7 @@ export default function RefundPolicy() {
           <p className="mb-2 text-sm">We generally do not provide refunds for payments made on the Sites. Purchasing a service constitutes acceptance that the sale is final, unless an exception applies or otherwise required by applicable law. This no-refund approach is appropriate for bespoke services, deposits, and project-based work where work commences upon payment.</p>
 
           <h4 id="scope" className="mt-4 font-semibold">Scope</h4>
-          <p className="mb-2 text-sm">This Policy covers paid services, deposits, and fees charged for project work, consulting, and digital goods sold directly by Fiaz Technologies via muhammadfiaz.com and fiaz.dev.</p>
+          <p className="mb-2 text-sm">This Policy covers paid services, deposits, and fees charged for project work, consulting, and digital goods sold directly by Glowvisuals via glowvisuals.com.</p>
 
           <h4 id="no-refund" className="mt-4 font-semibold">No Refund Policy</h4>
           <p className="mb-2 text-sm">Except as set out below, all payments are non-refundable. By purchasing services you acknowledge and agree that payments are final.</p>
@@ -64,12 +64,11 @@ export default function RefundPolicy() {
           <h4 id="requests" className="mt-4 font-semibold">How to Request a Refund</h4>
           <p className="mb-2 text-sm">To request a refund, please do the following:
             <ol className="list-decimal list-inside ml-5 mt-2">
-              <li>Identify where you purchased the service (muhammadfiaz.com or
-                fiaz.dev) and include an invoice/order number or proof of
+              <li>Identify where you purchased the service (glowvisuals.com) 
+                and include an invoice/order number or proof of
                 payment.</li>
-              <li>Email <a className="underline text-primary" href="mailto:refund@muhammadfiaz.com">refund@muhammadfiaz.com</a> (for purchases on
-                muhammadfiaz.com) or <a className="underline text-primary" href="mailto:refund@fiaz.dev">refund@fiaz.dev</a> (for purchases on
-                fiaz.dev) with your request and supporting documentation.
+              <li>Email <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> (for purchases on
+                glowvisuals.com) with your request and supporting documentation.
               </li>
               <li>We will acknowledge receipt within 7 business days and may
                 request additional information to verify the claim.
@@ -88,7 +87,7 @@ export default function RefundPolicy() {
           <p className="mb-2 text-sm">If a payment dispute arises, parties should contact us at the addresses below to attempt an amicable resolution. Governing law is the laws of India; for international customers, local consumer protection laws may also apply.</p>
 
           <h4 id="contact" className="mt-4 font-semibold">Contact</h4>
-          <p className="mb-2 text-sm">For refund requests or questions: <a className="underline text-primary" href="mailto:refund@muhammadfiaz.com">refund@muhammadfiaz.com</a> (for purchases made via muhammadfiaz.com), <a className="underline text-primary" href="mailto:s.muhammadfiaz2003@gmail.com">s.muhammadfiaz2003@gmail.com</a> (personal), or <a className="underline text-primary" href="mailto:refund@fiaz.dev">refund@fiaz.dev</a> (for purchases made via fiaz.dev). General inquiries: <a className="underline text-primary" href="mailto:contact@muhammadfiaz.com">contact@muhammadfiaz.com</a> or <a className="underline text-primary" href="mailto:contactus@fiaz.dev">contactus@fiaz.dev</a>.</p>
+          <p className="mb-2 text-sm">For refund requests or questions: <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> (for purchases made via glowvisuals.com), <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> (personal), or <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> (for purchases made via email). General inquiries: <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> or <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a>.</p>
 
           <p className="mt-6 text-sm">This Refund Policy may be updated occasionally. The &quot;Last updated&quot; date at the top of this page indicates the most recent revision; please check this page periodically.</p>
           </div>

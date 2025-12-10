@@ -15,7 +15,7 @@ import { Badge } from '@/components/ui/badge';
 import { ThemeToggle } from './theme-toggle';
 
 const iconMap = {
-  github: Github,
+  // github: Github,
   linkedin: Linkedin,
   globe: Globe,
   coffee: Coffee,
@@ -118,14 +118,14 @@ export function Navbar() {
             asChild
             className="h-8 w-8 p-0"
           >
-            <Link
+            {/* <Link
               href={siteConfig.links.github}
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub Profile"
             >
               <Github className="h-4 w-4" />
-            </Link>
+            </Link> */}
           </Button>
 
           {/* Mobile Menu */}

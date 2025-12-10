@@ -23,8 +23,8 @@ export function ChatHeader() {
           </span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Have a private 1:1 conversation with me through GitHub Discussions. 
-          Sign in with your GitHub account to get started. All conversations are private and secure.
+          Have a private 1:1 conversation with me on WhatsApp. 
+          All conversations are private and secure.
         </p>
       </motion.div>
       

@@ -1,7 +1,7 @@
 "use client";
-import Image from 'next/image';
+// import Image from 'next/image';
 
-import { BetterAuthSignIn } from './better-auth-signin';
+// import { BetterAuthSignIn } from './better-auth-signin';
 import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -69,59 +69,15 @@ export function ChatInterface() {
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
-            {!user && (
-              <BetterAuthSignIn />
-            )}
-            <div className="flex flex-col gap-4">
-              {messages.map((msg, idx) => (
-                <div
-                  key={idx}
-                  className={
-                    msg.sender === 'me'
-                      ? 'flex justify-end'
-                      : 'flex justify-start'
-                  }
-                >
-                  <div className="flex items-end gap-2 max-w-[70%]">
-                    {msg.sender === 'user' && (
-                      <Image src={msg.avatar} alt={msg.name} width={32} height={32} className="h-8 w-8 rounded-full border border-border object-cover" />
-
-                    )}
-                    <div
-                      className={
-                        msg.sender === 'me'
-                          ? 'bg-primary text-primary-foreground rounded-lg px-4 py-2 shadow-md'
-                          : 'bg-muted text-foreground rounded-lg px-4 py-2 shadow-md'
-                      }
-                    >
-                      <div className="text-xs font-semibold mb-1">
-                        {msg.name} <span className="text-muted-foreground">{msg.time}</span>
-                      </div>
-                      <div className="text-sm leading-relaxed">{msg.content}</div>
-                    </div>
-                    {msg.sender === 'me' && (
-                      <Image src={msg.avatar} alt={msg.name} width={32} height={32} className="h-8 w-8 rounded-full border border-border object-cover" />
-
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-            {user && (
-              <div className="flex gap-2 mt-4">
-                <input
-                  type="text"
-                  className="flex-1 rounded-lg border border-border px-3 py-2 text-sm bg-background"
-                  value={input}
-                  onChange={e => setInput(e.target.value)}
-                  placeholder="Type your message..."
-                  disabled={loading}
-                />
-                <Button size="sm" onClick={handleSend} disabled={loading || !input.trim()}>
-                  Send
-                </Button>
-              </div>
-            )}
+            <h3 className="font-semibold">Prefer WhatsApp?</h3>
+            <p className="text-sm text-muted-foreground">
+              You can reach out to me directly via WhatsApp.
+            </p>
+            <Button asChild variant="outline" size="sm">
+              <Link href="https://wa.me/2348060123939">
+                Send WhatsApp Message
+              </Link>
+            </Button>
           </CardContent>
         </Card>
       </motion.div>
@@ -140,7 +96,7 @@ export function ChatInterface() {
               You can also reach out to me directly via email for more formal inquiries.
             </p>
             <Button asChild variant="outline" size="sm">
-              <Link href="mailto:contact@muhammadfiaz.com">
+              <Link href="mailto:oyalegloria@gmail.com">
                 Send Email
               </Link>
             </Button>

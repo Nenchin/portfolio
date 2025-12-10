@@ -4,7 +4,7 @@ const STATIC_PAGES = [
   '/',
   '/about',
   '/projects',
-  '/posts',
+  // '/posts',
   '/chat',
   '/privacy-policy',
   '/terms-of-service',

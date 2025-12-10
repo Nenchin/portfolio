@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { siteConfig } from '@/config/site.config';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Announcement, AnnouncementTitle ,AnnouncementTag} from '@/components/ui/announcement';
+// import { Announcement, AnnouncementTitle ,AnnouncementTag} from '@/components/ui/announcement';
 import { ArrowRight, Zap } from 'lucide-react';
 import { ArrowUpRightIcon } from 'lucide-react';
 
@@ -29,7 +29,7 @@ export function HeroSection() {
           transition={{ duration: 0.6, ease: 'easeOut' }}
           className="space-y-8"
         >
-          {/* Announcement Component */}
+          {/* Announcement Component
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -45,14 +45,14 @@ export function HeroSection() {
                 <ArrowUpRightIcon className="shrink-0 text-muted-foreground" size={16} />
               </AnnouncementTitle>
             </Announcement>
-          </motion.div>
+          </motion.div> */}
           {/* Main Heading - show name and description from config */}
           <div className="space-y-4 sm:space-y-6">
             <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl xl:text-[8rem] font-extrabold tracking-tight leading-none">
                 <span className="block">{siteConfig.siteName}</span>
             </h1>
               <p className="mx-auto max-w-2xl sm:max-w-3xl text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-muted-foreground leading-relaxed px-4 sm:px-0">
-                I Build Next-Generation Technologies
+                Creating clean, intuitive, and user-focused digital experiences.
               </p>
 
           </div>

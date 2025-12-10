@@ -25,8 +25,8 @@ export default function PrivacyPolicy() {
           <p className="text-sm text-muted-foreground mb-4">Last updated: August 20, 2025.</p>
 
           <p className="mb-4">
-            This Privacy Policy describes how muhammadfiaz.com and fiaz.dev
-            (collectively &#39;we&#39;, &#39;us&#39;, or &#39;Fiaz Technologies&#39;) collect,
+            This Privacy Policy describes how gloryswebsite
+            (collectively &#39;we&#39;, &#39;us&#39;, or &#39;Glowvisuals&#39;) collect,
             use, disclose, and protect personal information when you visit or
             use our portfolio and related services. By accessing or using our
             Sites, you acknowledge that you have read and understood this
@@ -34,12 +34,12 @@ export default function PrivacyPolicy() {
             described herein.
           </p>
           <p className="mb-4 text-sm">
-            This Policy also applies to muhammadfiaz.com, fiaz.dev and any
+            This Policy also applies to my website and any
             other websites, domains, applications, services, products, or
-            digital properties owned, operated, or offered by Muhammad Fiaz
-            (personally) or Fiaz Technologies. For clarity, references to
+            digital properties owned, operated, or offered by Glory Augustine
+            (personally) or Glowvisuals. For clarity, references to
             &quot;we&quot;, &quot;us&quot; or &quot;our&quot; in this Policy include both
-            Muhammad Fiaz and Fiaz Technologies where applicable.
+            Glory Augustine and Glowvisuals where applicable.
           </p>
 
           <p className="mb-2 text-sm font-medium">Minimal collection statement</p>
@@ -91,7 +91,7 @@ export default function PrivacyPolicy() {
           <p className="mb-2 text-sm">Our Sites are accessible globally and personal data may be transferred to, stored, and processed in India or other countries. We will take steps (such as standard contractual clauses or other appropriate safeguards) when required by law to protect your personal data during cross-border transfers.</p>
 
           <h4 id="contact" className="mt-4 font-semibold">Contact</h4>
-          <p className="mb-2 text-sm">For privacy requests or questions, contact: <a className="underline text-primary" href="mailto:contact@muhammadfiaz.com">contact@muhammadfiaz.com</a> (personal), <a className="underline text-primary" href="mailto:s.muhammadfiaz2003@gmail.com">s.muhammadfiaz2003@gmail.com</a> (personal), or <a className="underline text-primary" href="mailto:contactus@fiaz.dev">contactus@fiaz.dev</a> (Fiaz Technologies). For legal requests, contact <a className="underline text-primary" href="mailto:legal@fiaz.dev">legal@fiaz.dev</a>. For privacy-related disputes, please include sufficient information to identify your request and allow us to respond promptly.</p>
+          <p className="mb-2 text-sm">For privacy requests or questions, contact: <a className="underline text-primary" href="mailto:contact@muhammadfiaz.com">contact@muhammadfiaz.com</a> (personal), <a className="underline text-primary" href="mailto:s.muhammadfiaz2003@gmail.com">s.muhammadfiaz2003@gmail.com</a> (personal), or <a className="underline text-primary" href="mailto:contactus@fiaz.dev">contactus@fiaz.dev</a> (Glowvisuals). For legal requests, contact <a className="underline text-primary" href="mailto:legal@fiaz.dev">legal@fiaz.dev</a>. For privacy-related disputes, please include sufficient information to identify your request and allow us to respond promptly.</p>
 
           <p className="mt-6 text-sm">We may update this Privacy Policy from time to time. The &quot;Last updated&quot; date at the top indicates the most recent revision; please review this page periodically to stay informed about any changes.</p>
           </div>
