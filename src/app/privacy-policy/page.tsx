@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
           <p className="text-sm text-muted-foreground mb-4">Last updated: August 20, 2025.</p>
 
           <p className="mb-4">
-            This Privacy Policy describes how gloryswebsite
+            This Privacy Policy describes how Gloriaswebsite
             (collectively &#39;we&#39;, &#39;us&#39;, or &#39;Glowvisuals&#39;) collect,
             use, disclose, and protect personal information when you visit or
             use our portfolio and related services. By accessing or using our
@@ -36,10 +36,10 @@ export default function PrivacyPolicy() {
           <p className="mb-4 text-sm">
             This Policy also applies to my website and any
             other websites, domains, applications, services, products, or
-            digital properties owned, operated, or offered by Glory Augustine
+            digital properties owned, operated, or offered by Gloria Augustine
             (personally) or Glowvisuals. For clarity, references to
             &quot;we&quot;, &quot;us&quot; or &quot;our&quot; in this Policy include both
-            Glory Augustine and Glowvisuals where applicable.
+            Gloria Augustine and Glowvisuals where applicable.
           </p>
 
           <p className="mb-2 text-sm font-medium">Minimal collection statement</p>

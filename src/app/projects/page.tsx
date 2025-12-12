@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 import { ProjectsGrid } from '@/components/sections/projects-grid';
 import { ProjectsHeader } from '@/components/sections/projects-header';
 import { siteConfig } from '@/config/site.config';
+import FigmaGallery from '@/components/FigmaGallery';
 
 export const metadata = {
   title: `Projects | ${siteConfig.siteName}`,
@@ -9,13 +10,28 @@ export const metadata = {
 };
 
 export default function ProjectsPage() {
+  
+  const FIGMA_FILE_KEY = process.env.NEXT_PUBLIC_FIGMA_FILE_KEY ?? '';
+
   return (
     <div className="min-h-screen py-16">
       <div className="mx-auto max-w-7xl px-6 mt-16 md:mt-24">
         <ProjectsHeader />
+
         <Suspense fallback={<ProjectsLoading />}>
           <ProjectsGrid />
         </Suspense>
+
+        {/* Figma gallery — server-proxied component. Set NEXT_PUBLIC_FIGMA_FILE_KEY in .env.local */}
+        {FIGMA_FILE_KEY ? (
+          <div className="mt-12">
+            <FigmaGallery fileKey={FIGMA_FILE_KEY} />
+          </div>
+        ) : (
+          <div className="mt-12 text-sm text-muted-foreground">
+            No Figma file key configured. Set <code>NEXT_PUBLIC_FIGMA_FILE_KEY</code> in <code>.env.local</code> to enable the gallery.
+          </div>
+        )}
       </div>
     </div>
   );

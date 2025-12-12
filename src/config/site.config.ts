@@ -56,15 +56,15 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  siteName: 'Glory Augustine',
+  siteName: 'Gloria Augustine',
   domain: 'muhammadfiaz.com',
-  author: 'Glory Augustine',
+  author: 'Gloria Augustine',
   description: 'Graphic Designer and UI/UX Designer dedicated to creating clean, modern, and meaningful visuals that make brands stand out.',
   about:
     'I am Gloria Oyale Augustine, a passionate Graphic Designer and UI/UX Designer dedicated to creating clean, modern, and meaningful visuals that make brands stand out and help people connect with digital products effortlessly.',
     author_img: '/img/file.png',
     keywords: [
-      'Glory Augustine',
+      'Gloria Augustine',
       'Product Designer',
       'UI',
       'UX',
@@ -101,10 +101,10 @@ export const siteConfig: SiteConfig = {
 
   
   seo: {
-    title: 'Glory Augustine',
+    title: 'Gloria Augustine',
     description: 'Graphic Designer and UI/UX Designer dedicated to creating clean, modern, and meaningful visuals that make brands stand out.',
     keywords: [
-      'Glory Augustine',
+      'Gloria Augustine',
       'Product Designer',
       'UI',
       'UX',
@@ -112,7 +112,7 @@ export const siteConfig: SiteConfig = {
     ],
     canonical: 'https://muhammadfiaz.com',
     image: '/og.png',
-    imageAlt: "Glory Augustine - Product Designer",
+    imageAlt: "Gloria Augustine - Product Designer",
     locale: 'en-US',
     type: 'website',
     twitterCard: 'summary_large_image',

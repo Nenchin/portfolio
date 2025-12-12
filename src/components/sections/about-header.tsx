@@ -17,7 +17,7 @@ export function AboutHeader() {
           About Me
         </Badge>
         <h1 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl mb-6">
-          Glory{' '}
+          Gloria{' '}
           <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
             Augustine
           </span>

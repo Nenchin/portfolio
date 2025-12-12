@@ -6,7 +6,7 @@ import { siteConfig } from '@/config/site.config';
 
 export const metadata = {
   title: `Chat | ${siteConfig.siteName}`,
-  description: 'Have a private conversation with Glory Augustine on WhatsApp.',
+  description: 'Have a private conversation with Gloria Augustine on WhatsApp.',
 };
 
 export default function ChatPage() {

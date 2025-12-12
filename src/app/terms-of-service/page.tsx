@@ -25,7 +25,7 @@ export default function TermsOfService() {
           <p className="text-sm text-muted-foreground mb-4">Last updated: August 20, 2025.</p>
 
           <p className="mb-4">These Terms of Service (&quot;Terms&quot;) govern your access to and use of my website (the &quot;Sites&quot;), owned and operated by Glowvisuals (&quot;we&quot;, &quot;us&quot;). By accessing or using the Sites or purchasing services you agree to be bound by these Terms and any separate agreement you enter into with us.</p>
-          <p className="mb-4 text-sm">These Terms also apply to any other websites, domains, applications, services, products, or digital properties owned, operated, or offered by Glory Augustine (personally) or Glowvisuals. References to &quot;we&quot;, &quot;us&quot;, or &quot;our&quot; include both Glory Augustine and Glowvisuals where applicable.</p>
+          <p className="mb-4 text-sm">These Terms also apply to any other websites, domains, applications, services, products, or digital properties owned, operated, or offered by Gloria Augustine (personally) or Glowvisuals. References to &quot;we&quot;, &quot;us&quot;, or &quot;our&quot; include both Gloria Augustine and Glowvisuals where applicable.</p>
 
           <p className="mb-2 text-sm font-medium">Minimal collection statement</p>
           <p className="mb-2 text-sm">We do not collect personal details about you unless it is necessary to provide a service you requested, required by law, or you voluntarily provide them.</p>

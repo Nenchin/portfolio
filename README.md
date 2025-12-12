@@ -60,7 +60,7 @@ Your support has been invaluable and I look forward to sharing even more with V4
 
 # About This Project
 
-This project is built with Next.js and React, showcasing [Glory Augustine](https://github.com/muhammad-fiaz/)'s [personal website](https://muhammadfiaz.com/).
+This project is built with Next.js and React, showcasing [Gloria Augustine](https://github.com/muhammad-fiaz/)'s [personal website](https://muhammadfiaz.com/).
 
 **Feel free to use this project for your portfolio or as a project reference. If you find it helpful, don't forget to give it a ⭐️ to show your support. [Fork this repo](https://github.com/muhammad-fiaz/portfolio/fork) if you want to contribute✨**
 
@@ -156,7 +156,7 @@ Also, Read the [React.js Documentation](https://reactjs.org/docs/getting-started
 
 <div>
   <a href="https://github.com/sponsors/muhammad-fiaz" target="_blank">
-    <img src="https://img.shields.io/badge/Sponsor-%231EAEDB.svg?&style=for-the-badge&logo=GitHub-Sponsors&logoColor=white" alt="Sponsor Glory Augustine" />
+    <img src="https://img.shields.io/badge/Sponsor-%231EAEDB.svg?&style=for-the-badge&logo=GitHub-Sponsors&logoColor=white" alt="Sponsor Gloria Augustine" />
   </a>
   <a href="https://buymecoffee.com/muhammadfiaz" target="_blank">
     <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-%23FF813F.svg?&style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" alt="Buy Me a Coffee" />

@@ -32,7 +32,7 @@ export function AboutContent() {
               <div className="absolute bottom-0 right-0 w-[180px] h-[180px] bg-gradient-to-br from-secondary/30 to-transparent rounded-lg blur-xl opacity-30 dark:opacity-50" />
             </div>
           </div>
-          <div className="text-center text-3xl font-extrabold text-primary mt-4">Glory Augustine</div>
+          <div className="text-center text-3xl font-extrabold text-primary mt-4">Gloria Augustine</div>
         </CardHeader>
         <CardContent className="space-y-4 relative z-10">
           <p className="text-muted-foreground leading-relaxed">
