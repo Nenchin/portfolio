@@ -1,42 +1,47 @@
 import { NextResponse } from 'next/server';
 
-interface GitHubRepo {
-  id: number;
+interface FigmaFile {
+  key: string;
   name: string;
-  full_name: string;
-  description: string | null;
-  html_url: string;
-  homepage: string | null;
-  stargazers_count: number;
-  forks_count: number;
-  language: string | null;
-  topics: string[];
-  created_at: string;
+  description?: string;
   updated_at: string;
-  pushed_at: string;
-  fork: boolean;
-  private: boolean;
+  created_at: string;
+  thumbnail_url: string;
+  shared_plugin_count?: number;
+  shared_library_count?: number;
+  sort_position?: number;
+}
+
+interface FigmaProject {
+  files: FigmaFile[];
 }
 
 export async function GET() {
   try {
-    const githubToken = process.env.GITHUB_TOKEN;
-    const githubUsername = process.env.GITHUB_USERNAME || 'muhammad-fiaz';
+    const figmaToken = process.env.FIGMA_API_TOKEN;
+    const figmaProjectId = process.env.NEXT_PUBLIC_FIGMA_PROJECT_ID;
     
-    if (!githubToken) {
+    if (!figmaToken) {
       return NextResponse.json(
-        { error: 'GitHub token not configured' },
+        { error: 'Figma token not configured' },
         { status: 500 }
       );
     }
 
+    if (!figmaProjectId) {
+      return NextResponse.json(
+        { error: 'Figma project ID not configured' },
+        { status: 500 }
+      );
+    }
+
+    // Fetch project files from Figma API
     const response = await fetch(
-      `https://api.github.com/users/${githubUsername}/repos?sort=updated&per_page=20&type=owner`,
+      `https://api.figma.com/v1/projects/${figmaProjectId}/files`,
       {
         headers: {
-          'Authorization': `token ${githubToken}`,
-          'Accept': 'application/vnd.github.v3+json',
-          'User-Agent': 'Portfolio-App',
+          'X-Figma-Token': figmaToken,
+          'Accept': 'application/json',
         },
         next: {
           revalidate: 3600, // Cache for 1 hour
@@ -45,27 +50,24 @@ export async function GET() {
     );
 
     if (!response.ok) {
-      throw new Error(`GitHub API responded with status ${response.status}`);
+      throw new Error(`Figma API responded with status ${response.status}`);
     }
 
-    const repos: GitHubRepo[] = await response.json();
-    // Only filter out private repos, keep forks
-    const publicRepos = repos
-      .filter((repo) => !repo.private)
+    const data: FigmaProject = await response.json();
+    
+    // Sort by updated_at date (most recent first)
+    const sortedFiles = (data.files || [])
       .sort((a, b) => {
-        // Sort by combination of stars and recent updates
-        const aScore = a.stargazers_count + (new Date(a.updated_at).getTime() / 1000000);
-        const bScore = b.stargazers_count + (new Date(b.updated_at).getTime() / 1000000);
-        return bScore - aScore;
+        return new Date(b.updated_at).getTime() - new Date(a.updated_at).getTime();
       });
 
-    return NextResponse.json(publicRepos, {
+    return NextResponse.json(sortedFiles, {
       headers: {
         'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=7200',
       },
     });
   } catch (error) {
-    console.error('Error fetching GitHub repositories:', error);
+    console.error('Error fetching Figma projects:', error);
     
     return NextResponse.json(
       { error: 'Failed to fetch projects' },

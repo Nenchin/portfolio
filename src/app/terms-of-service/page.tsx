@@ -41,7 +41,7 @@ export default function TermsOfService() {
             <li><Link href="#termination" className="underline text-primary">Termination</Link></li>
             <li><Link href="#governing" className="underline text-primary">Governing Law & Dispute Resolution</Link></li>
             <li><Link href="#changes" className="underline text-primary">Changes to Terms</Link></li>
-            <li><Link href="#contact" className="underline text-primary">Contact</Link></li>
+            {/* <li><Link href="#contact" className="underline text-primary">Contact</Link></li> */}
           </ul>
 
           <h4 id="acceptance" className="mt-4 font-semibold">Acceptance of Terms</h4>
@@ -71,8 +71,8 @@ export default function TermsOfService() {
           <h4 id="changes" className="mt-4 font-semibold">Changes to Terms</h4>
           <p className="mb-2 text-sm">We may modify these Terms; material changes will be posted and effective as stated. Continued use of the Sites after changes constitutes acceptance.</p>
 
-          <h4 id="contact" className="mt-4 font-semibold">Contact</h4>
-          <p className="mb-2 text-sm">For questions about these Terms or to serve legal notices: <a className="underline text-primary" href="mailto:contact@muhammadfiaz.com">contact@muhammadfiaz.com</a> (personal), <a className="underline text-primary" href="mailto:s.muhammadfiaz2003@gmail.com">s.muhammadfiaz2003@gmail.com</a> (personal), or <a className="underline text-primary" href="mailto:contactus@fiaz.dev">contactus@fiaz.dev</a> (Glowvisuals). For legal notices: <a className="underline text-primary" href="mailto:legal@fiaz.dev">legal@fiaz.dev</a>. For refund enquiries: <a className="underline text-primary" href="mailto:refund@muhammadfiaz.com">refund@muhammadfiaz.com</a> or <a className="underline text-primary" href="mailto:refund@fiaz.dev">refund@fiaz.dev</a> depending on where you purchased the service.</p>
+          {/* <h4 id="contact" className="mt-4 font-semibold">Contact</h4>
+          <p className="mb-2 text-sm">For questions about these Terms or to serve legal notices: <a className="underline text-primary" href="mailto:contact@muhammadfiaz.com">contact@muhammadfiaz.com</a> (personal), <a className="underline text-primary" href="mailto:s.muhammadfiaz2003@gmail.com">s.muhammadfiaz2003@gmail.com</a> (personal), or <a className="underline text-primary" href="mailto:contactus@fiaz.dev">contactus@fiaz.dev</a> (Glowvisuals). For legal notices: <a className="underline text-primary" href="mailto:legal@fiaz.dev">legal@fiaz.dev</a>. For refund enquiries: <a className="underline text-primary" href="mailto:refund@muhammadfiaz.com">refund@muhammadfiaz.com</a> or <a className="underline text-primary" href="mailto:refund@fiaz.dev">refund@fiaz.dev</a> depending on where you purchased the service.</p> */}
 
           <p className="mt-6 text-sm">These Terms may change from time to time. We will post updates here and the &quot;Last updated&quot; date reflects the most recent revision; please check this page periodically.</p>
           </div>

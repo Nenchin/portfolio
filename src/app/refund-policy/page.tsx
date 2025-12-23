@@ -38,7 +38,7 @@ export default function RefundPolicy() {
             <li><Link href="#requests" className="underline text-primary">How to Request a Refund</Link></li>
             <li><Link href="#payments" className="underline text-primary">Payment Processing & Fees</Link></li>
             <li><Link href="#disputes" className="underline text-primary">Dispute Resolution</Link></li>
-            <li><Link href="#contact" className="underline text-primary">Contact</Link></li>
+            {/* <li><Link href="#contact" className="underline text-primary">Contact</Link></li> */}
           </ul>
 
           <h4 id="summary" className="mt-4 font-semibold">Summary</h4>
@@ -86,8 +86,8 @@ export default function RefundPolicy() {
           <h4 id="disputes" className="mt-4 font-semibold">Dispute Resolution</h4>
           <p className="mb-2 text-sm">If a payment dispute arises, parties should contact us at the addresses below to attempt an amicable resolution. Governing law is the laws of India; for international customers, local consumer protection laws may also apply.</p>
 
-          <h4 id="contact" className="mt-4 font-semibold">Contact</h4>
-          <p className="mb-2 text-sm">For refund requests or questions: <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> (for purchases made via glowvisuals.com), <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> (personal), or <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> (for purchases made via email). General inquiries: <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> or <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a>.</p>
+          {/* <h4 id="contact" className="mt-4 font-semibold">Contact</h4>
+          <p className="mb-2 text-sm">For refund requests or questions: <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> (for purchases made via glowvisuals.com), <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> (personal), or <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> (for purchases made via email). General inquiries: <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a> or <a className="underline text-primary" href="mailto:oyalegloria@gmail.com">oyalegloria@gmail.com</a>.</p> */}
 
           <p className="mt-6 text-sm">This Refund Policy may be updated occasionally. The &quot;Last updated&quot; date at the top of this page indicates the most recent revision; please check this page periodically.</p>
           </div>

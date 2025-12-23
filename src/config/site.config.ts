@@ -57,7 +57,7 @@ export interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
   siteName: 'Gloria Augustine',
-  domain: 'muhammadfiaz.com',
+  domain: 'glowvisuals.com',
   author: 'Gloria Augustine',
   description: 'Graphic Designer and UI/UX Designer dedicated to creating clean, modern, and meaningful visuals that make brands stand out.',
   about:
@@ -86,7 +86,7 @@ export const siteConfig: SiteConfig = {
   },
   social: [
     // { label: 'GitHub', url: 'https://github.com/muhammad-fiaz', icon: 'github' },
-    { label: 'LinkedIn', url: 'https://www.linkedin.com/feed/', icon: 'linkedin' },
+    // { label: 'LinkedIn', url: 'https://www.linkedin.com/feed/', icon: 'linkedin' },
     // { label: 'Website', url: 'https://muhammadfiaz.com', icon: 'globe' },
     // { label: 'Tip', url: 'https://pay.muhammadfiaz.com', icon: 'coffee' },
   ],
@@ -110,7 +110,7 @@ export const siteConfig: SiteConfig = {
       'UX',
       'Graphics Designer',
     ],
-    canonical: 'https://muhammadfiaz.com',
+    canonical: 'https://glowvisuals.com',
     image: '/og.png',
     imageAlt: "Gloria Augustine - Product Designer",
     locale: 'en-US',

@@ -28,7 +28,7 @@ export function ChatHeader() {
         </p>
       </motion.div>
       
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.2 }}
@@ -42,7 +42,7 @@ export function ChatHeader() {
           <Github className="h-4 w-4" />
           <span>GitHub Authentication</span>
         </div>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 }
