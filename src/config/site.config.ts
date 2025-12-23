@@ -94,9 +94,7 @@ export const siteConfig: SiteConfig = {
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about' },
     { label: 'Projects', href: '/projects' },
-    // { label: 'Posts', href: '/posts' },
     { label: 'Chat', href: '/chat' },
-    // { label: 'Contact', href: '/contact' }
   ],
 
   
@@ -129,7 +127,7 @@ export function buildMetadata(overrides: Partial<Metadata> = {}): Metadata {
     title: seo.title,
     description: seo.description,
     keywords: seo.keywords,
-    authors: [{ name: siteConfig.author, url: siteConfig.links.website }],
+    // authors: [{ name: siteConfig.author, url: siteConfig.links.website }],
     metadataBase: new URL(`https://${domain}`),
     alternates: { canonical: seo.canonical ?? `https://${domain}` },
     openGraph: {
@@ -146,8 +144,8 @@ export function buildMetadata(overrides: Partial<Metadata> = {}): Metadata {
       title: seo.title,
       description: seo.description,
       images: seo.image ? [seo.image] : [],
-      site: siteConfig.twitterHandle,
-      creator: siteConfig.twitterHandle,
+      // site: siteConfig.twitterHandle,
+      // creator: siteConfig.twitterHandle,
     },
     other: {
       robots: seo.robots,

@@ -55,7 +55,6 @@ export default function PrivacyPolicy() {
             <li><Link href="#security" className="underline text-primary">Security</Link></li>
             <li><Link href="#rights" className="underline text-primary">Your Rights</Link></li>
             <li><Link href="#international" className="underline text-primary">International Users & Transfers</Link></li>
-            {/* <li><Link href="#contact" className="underline text-primary">Contact</Link></li> */}
           </ul>
 
           <h4 id="collection" className="mt-4 font-semibold">Information We Collect</h4>
@@ -89,9 +88,6 @@ export default function PrivacyPolicy() {
 
           <h4 id="international" className="mt-4 font-semibold">International Users & Transfers</h4>
           <p className="mb-2 text-sm">Our Sites are accessible globally and personal data may be transferred to, stored, and processed in India or other countries. We will take steps (such as standard contractual clauses or other appropriate safeguards) when required by law to protect your personal data during cross-border transfers.</p>
-
-          {/* <h4 id="contact" className="mt-4 font-semibold">Contact</h4>
-          <p className="mb-2 text-sm">For privacy requests or questions, contact: <a className="underline text-primary" href="mailto:contact@muhammadfiaz.com">contact@muhammadfiaz.com</a> (personal), <a className="underline text-primary" href="mailto:s.muhammadfiaz2003@gmail.com">s.muhammadfiaz2003@gmail.com</a> (personal), or <a className="underline text-primary" href="mailto:contactus@fiaz.dev">contactus@fiaz.dev</a> (Glowvisuals). For legal requests, contact <a className="underline text-primary" href="mailto:legal@fiaz.dev">legal@fiaz.dev</a>. For privacy-related disputes, please include sufficient information to identify your request and allow us to respond promptly.</p> */}
 
           <p className="mt-6 text-sm">We may update this Privacy Policy from time to time. The &quot;Last updated&quot; date at the top indicates the most recent revision; please review this page periodically to stay informed about any changes.</p>
           </div>
